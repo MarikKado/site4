@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat, serif;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    padding: 20px 10%;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    justify-content: space-between;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li {
+    padding-right: 2em;
+}
+
+.onescreen {
+    background: #F06C46;
+    color: white;
+    padding-left: max(20px, 10%);
+    padding-right: max(20px, 10%);
+    font-weight: bold;
+    padding-top: 4rem;
+    width: 100%;
+}
+
+.heading {
+    font-size: 4em;
+}
+
+.headingMin {
+    padding-top: 1em;
+    font-size: 2em;
+}
+
+.functionCours {
+    padding-top: 5em;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.one {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.imgone {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 1rem;
+}
+
+.two {
+    padding-left: min(0.1rem, 0rem);
+    padding-right: 17rem;
+}
+
+.imgtwo {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 1rem;
+}
+
+.imgtree {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 1rem;
+}
+
+.startCours {
+    font-size: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.toBookButton {
+    background-color: #FEB447;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 1%;
+    border-radius: 50px;
+    min-width: 184px;
+}
+
+.headingtwo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 6rem;
+    padding-left: max(20px, 10%);
+    padding-right: max(20px, 10%);
+}
+
+.requiredSkills {
+
+    display: grid;
+    grid-template-columns: 35% 35% 35%;
+    padding-left: max(20px, 10%);
+    padding-right: max(20px, 10%);
+}
+
+.cards {
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding-top: 4rem;
+
+}
+
+.requiredSkills p {
+    padding-top: 1rem;
+}
+
+.jobOpenings {
+    padding-left: max(20px, 10%);
+    padding-right: max(20px, 10%);
+}
+
+.headingJob {
+    font-size: 6rem;
+    opacity: 0.1;
+    mix-blend-mode: darken;
+    font-weight: 900;
+}
+
+.cardsHH {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% 20%;
+}
+
+.hh {
+    width: 216px;
+    height: 287px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.10);
+}
+
+.HeadHunter {
+    width: 43.377px;
+    height: 43.377px;
+    flex-shrink: 0;
+}
+
+.HHLogo {
+    width: 79px;
+    height: 40px;
+    flex-shrink: 0;
+}
